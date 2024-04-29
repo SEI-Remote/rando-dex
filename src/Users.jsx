@@ -7,7 +7,7 @@ const Users = () => {
 
   // You should not need to make any changes to this component!
 
-  const [userData, setUserData] = useState(getRandomUserData)
+  const [userData, setUserData] = useState(getRandomUserData())
   
   return (
     <div className="users">
