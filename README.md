@@ -1,6 +1,6 @@
 # rando-dex
 
-This app is an exercise in creating components and passing props to them.
+This app is an exercise in creating components, nesting them within one another, and passing props to them.
 
 To start this app up, navigate to your `code` directory and type the following:
 
@@ -19,15 +19,17 @@ npm run dev
 
 ## Instructions
 
-In VS Code, select the `UserDetails` component and observe the `console.log(user)`, which will print the specific information for a given user when their card is clicked within the app.  You can see this data if you open the terminal in your browser.  Use the data to plan out and create React components which will accept props and render the user's information to the page.  
+In VS Code, select the `UserDetails` component and observe the `console.log(user)`, which will print the specific information for a given user when their card is clicked within the app.  You can see this data if you open the terminal in your browser.  It is also stored in 'state' (we'll learn about it tomorrow), which can be seen using the [React Developer Tools](https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) which you should download!  If you're feeling adventurous, start getting familiar with these tools now!!!  Use the data to plan out and create React components which will accept props and render the user's information to the page.  
 
 ## Tips
 
-- There is a `UserDetails.css` stylesheet, which you can use for all of your styling needs.  This will allow you to write CSS without having to mess with anything that's already configured.
+- There is a `UserDetails.css` stylesheet, which you can use for all of your styling needs.  This will allow you to write CSS without having to mess with anything that's already configured.  We'll learn how to do all the fancy routing stuff later this week, so don't stress out about that now.  
+
+- There are a few things in this app (routing, params, location, navigation, state) that aren't relevant to what you're learning right now, but will provide an extra example for you to reference down the road after we've reviewed each of them in class.
 
 - Advanced routing (using React Router) is already configured for this app, so you should not make any changes to `App.jsx`, `Landing.jsx`, `Nav.jsx`, `Users.jsx`, or `UserCard.jsx`.  Everything you add to display information relevant to an individual user will live in a hierarchy within the `UserDetails` component.
 
 - Some useful components might include `Address.jsx`, `Cars.jsx`, `Car.jsx`, `Employment.jsx`, `Animals.jsx`, `Animal.jsx`, `PersonalInfo.jsx`.  The level of granularity you use when passing props to components is ultimately up to you, but there is a decent bit of nested data in this app which you can use to practice drilling props down the component hierarchy.  
 
-- Passing props to components is the MOST IMPORTANT thing to be practicing within the first few days of learning React, so getting familiar with this concept will set you up for success in the rest of this unit!
+- Passing props to components is the MOST IMPORTANT thing to practice within the first few days of learning React and getting familiar with this concept will set you up for success in the rest of this unit!
 
