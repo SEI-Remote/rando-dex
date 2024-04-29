@@ -8,6 +8,8 @@ import Nav from './Nav'
 
 function App() {
 
+  // You should not need to make any changes to this component!
+
   return (
     <>
       <Nav />

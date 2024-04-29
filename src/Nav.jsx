@@ -3,6 +3,8 @@ import logo from './assets/redplane.png'
 
 const Nav = () => {
 
+  // You should not need to make any changes to this component!
+
   return (
     <nav>
       <div className="nav-left">
@@ -16,4 +18,4 @@ const Nav = () => {
   )
 }
  
-export default Nav;
+export default Nav

@@ -1,5 +1,7 @@
 const Landing = () => {
-  
+
+  // You should not need to make any changes to this component!
+
   return (
     <>
       <main className="content">
@@ -8,4 +10,4 @@ const Landing = () => {
   )
 }
  
-export default Landing;
+export default Landing
