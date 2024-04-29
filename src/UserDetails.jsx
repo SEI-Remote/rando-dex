@@ -1,3 +1,4 @@
+import { useState } from "react"
 import { useParams, useLocation } from "react-router-dom"
 import { getRandomUserDetails } from "./data/userData"
 import './UserDetails.css'
@@ -5,7 +6,7 @@ import './UserDetails.css'
 const UserDetails = () => {
   const { userId } = useParams()
   const location = useLocation()
-  const user = getRandomUserDetails(userId, location.state.pic)
+  const [user, setUser] = useState(getRandomUserDetails(userId, location.state.pic))
   console.log(user)
 
   return (

@@ -1,10 +1,11 @@
-import UserCard from "./UserCard"
+import { useState } from "react"
 import { Link } from "react-router-dom"
+import UserCard from "./UserCard"
 import { getRandomUserData } from "./data/userData"
 
 
 const Users = () => {
-  const userData = getRandomUserData()
+  const [userData, setUserData] = useState(getRandomUserData)
   
   return (
     <div className="users">

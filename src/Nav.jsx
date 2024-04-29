@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom'
 import logo from './assets/redplane.png'
 
 const Nav = () => {
-  
+
   return (
     <nav>
       <div className="nav-left">
@@ -10,7 +10,7 @@ const Nav = () => {
         <div>RandoDex</div>
       </div>
       <div className="nav-right">
-        <NavLink to='/users'>User List</NavLink>
+        <NavLink to='/users'>All Users</NavLink>
       </div>
     </nav>
   )
