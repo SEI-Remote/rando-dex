@@ -4,7 +4,7 @@
 }
 
 .user {
-  background: linear-gradient(rgba(14, 82, 84, 0.95), rgba(14, 82, 84, 0.95)), url(./assets/flowerBackground.png);
+  background: linear-gradient(rgba(14, 82, 84, .95), rgba(14, 82, 84, .95)), url(./assets/flowerBackground.png);
   background-repeat: repeat;
   height: calc(100dvh - 44px);
   display: flex;
